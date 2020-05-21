@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: 'ap-northeast-1'
   app: 'docker-react-practice'
-  env: 'Docker-env'
+  env: 'DockerReactPractice-env'
   bucket_name: 'elasticbeanstalk-ap-northeast-1-557655015345'
   bucket_path: 'docker-react-practice'
   on:
